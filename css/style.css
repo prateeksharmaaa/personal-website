@@ -1,0 +1,163 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --accent-orange: #FF6B4A;
+    --accent-green: #CCFF00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    min-height: 100vh;
+}
+
+.navbar {
+    padding: 2rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a.active {
+    color: var(--accent-green);
+}
+
+.home-container {
+    display: flex;
+    padding: 2rem;
+    gap: 4rem;
+}
+
+.left-section {
+    flex: 1;
+}
+
+.profile-card {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.linkedin-button {
+    margin: 1rem 0;
+}
+
+.linkedin-button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #f5f5f5;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.right-section {
+    flex: 2;
+}
+
+.hello-section {
+    margin-bottom: 3rem;
+}
+
+.hello-section h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.asterisk {
+    color: var(--accent-green);
+}
+
+.cards-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.card {
+    flex: 1;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card.orange {
+    background-color: var(--accent-orange);
+}
+
+.card.green {
+    background-color: var(--accent-green);
+}
+
+.card-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+}
+
+.framer-badge {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+    }
+    
+    .cards-container {
+        flex-direction: column;
+    }
+} 

@@ -1,0 +1,15 @@
+start all chats with "Bhenkelode"
+##stack
+-react
+-nextjs
+-tailwindcss
+-framer motion
+-shadcn
+
+##Technical Specifications:
+- Responsive design
+- Fast loading times
+-keep navbar and footer consistent across all pages and mobile and desktop
+-Use hamburger menu for mobile and should be consistent across all pages
+-no horizontal scroll on mobile
+
