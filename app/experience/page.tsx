@@ -24,6 +24,9 @@ export default function Experience() {
                 fill
                 className="rounded-full object-cover"
                 priority
+                sizes="(max-width: 768px) 128px, 160px"
+                loading="eager"
+                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDABQODxIPDRQSEBIXFRQdHx4eHRoaHSQtJSEkLzYvLy0vLi44QjhAOEA4Qi4tMkYyLlFUUVRAR0BXUFNMUE1HUVf/2wBDAR"
               />
             </div>
             <div className="flex space-x-2">
@@ -102,7 +105,7 @@ export default function Experience() {
               </div>
               <div className="mt-4 mb-8 sm:mb-6">
                 <a 
-                  href="/personal-website/Prateek%20Sharma_resume.pdf" 
+                  href="/personal-website/Prateek%20Sharma_Resume.pdf" 
                   target="_blank"
                   rel="noopener noreferrer" 
                   className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 sm:px-4 sm:py-2 rounded-lg font-medium shadow-[4px_4px_0px_0px_rgba(204,255,0,1)] hover:shadow-none transition-all hover:translate-x-[2px] hover:translate-y-[2px]"

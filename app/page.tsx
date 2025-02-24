@@ -121,7 +121,7 @@ export default function Home() {
                 </a>
                 
                 <a 
-                  href="/personal-website/Prateek%20Sharma_resume.pdf" 
+                  href="/personal-website/Prateek%20Sharma_Resume.pdf" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="card green group"
