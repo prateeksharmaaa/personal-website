@@ -75,7 +75,7 @@ body {
   border-radius: 1rem;
   text-align: center;
   box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
-  cursor: url('/ps-cursor-small.png') 12 12, auto;
+  cursor: url('/personal-website/ps-cursor-small.png') 12 12, auto;
 }
 
 .profile-image {

@@ -20,7 +20,7 @@ export default function Home() {
             <div className="profile-card bg-white rounded-3xl p-8 sm:p-6 shadow-lg flex flex-col items-center min-h-[600px]">
               <div className="relative w-40 h-40 sm:w-32 sm:h-32 mb-8 sm:mb-6">
                 <Image
-                  src="/profile-placeholder.jpeg"
+                  src="/personal-website/profile-placeholder.jpeg"
                   alt="Profile"
                   fill
                   className="rounded-full object-cover"
@@ -121,7 +121,7 @@ export default function Home() {
                 </a>
                 
                 <a 
-                  href="/Prateek%20Sharma_resume.pdf" 
+                  href="/personal-website/Prateek%20Sharma_resume.pdf" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="card green group"
