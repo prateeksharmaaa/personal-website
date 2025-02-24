@@ -7,7 +7,8 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  basePath: '/personal-website',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/personal-website' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/personal-website' : '',
 };
 
 export default nextConfig; 
