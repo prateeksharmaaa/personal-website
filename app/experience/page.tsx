@@ -19,7 +19,7 @@ export default function Experience() {
           <div className="profile-card bg-white rounded-3xl p-8 sm:p-6 shadow-lg flex flex-col items-center min-h-[600px]">
             <div className="relative w-40 h-40 sm:w-32 sm:h-32 mb-8 sm:mb-6">
               <Image
-                src="/profile-placeholder.jpeg"
+                src="/personal-website/profile-placeholder.jpeg"
                 alt="Profile"
                 fill
                 className="rounded-full object-cover"
@@ -102,7 +102,7 @@ export default function Experience() {
               </div>
               <div className="mt-4 mb-8 sm:mb-6">
                 <a 
-                  href="/Prateek%20Sharma_resume.pdf" 
+                  href="/personal-website/Prateek%20Sharma_resume.pdf" 
                   target="_blank"
                   rel="noopener noreferrer" 
                   className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 sm:px-4 sm:py-2 rounded-lg font-medium shadow-[4px_4px_0px_0px_rgba(204,255,0,1)] hover:shadow-none transition-all hover:translate-x-[2px] hover:translate-y-[2px]"
